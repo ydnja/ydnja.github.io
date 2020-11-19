@@ -1,0 +1,415 @@
+body {
+  background-color: #0d0d0d;
+  /* background-image: url("x2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.feature {
+  background-color: gold;
+  color: red;
+  font-family: Helvetica;
+ }
+
+
+nav
+{
+  position: flex;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  position: fixed;
+  z-index: 9999;
+}
+
+ .header
+ {
+   width: 100%;
+   height: 1000px;
+   background-image: url(AJ.jpg);
+   background-size: cover;
+   background-position: center;
+   min-height: 850px;
+ }
+
+.headerAbout
+{
+  width: 100%;
+  height: 1000px;
+  background-image: url(Mavic2Pro.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 850px;
+}
+
+.headerAgri
+  {
+    width: 100%;
+    height: 1000px;
+    background-image: url(P4M.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 850px;
+  }
+
+.headerConservation
+{
+  width: 100%;
+  height: 1000px;
+  background-image: url(Conserv.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 850px;
+}
+
+.headerTransp
+{
+  width: 100%;
+  height: 1000px;
+  background-image: url(Transp.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 850px;
+}
+nav ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  display: fixed;
+  position: flex;
+  z-index: 9999;
+}
+nav ul li
+{
+  float: left;
+  width: 20%;
+  height:80px;
+  box-shadow: 1px 2px 4px grey;
+  background-color: black;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  z-index: 9999;
+}
+
+nav ul li a
+{
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  height: 40px;
+  padding: 20px 20px;
+}
+
+nav ul li a:hover
+{
+  background-color: #cc7a00;
+  height: 40px;
+}
+
+nav ul li ul li
+{
+  display: none;
+  width: 100%;
+}
+
+nav ul li:hover ul li
+{
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid black;
+  background-color: inherit;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+ .btn:hover {background: #eee;}
+
+ /* .Tesla {color: green;}
+ /* Green */
+ .Tesla {
+   display: inline-block;
+   transition: all 0.75s;
+   cursor: pointer;
+   color: black;
+   background-color: lightgrey;
+   font: 25px "Lato", sans-serif;
+   font-weight: bold;
+   margin-bottom: 10px;
+   border-radius: 15px;
+ }
+
+ .Tesla:hover
+{
+  display: inline-block;
+  background: linear-gradient(90deg, #ffdd99, #ffc34d, #e68a00);;
+  color: black;
+  font: 25px "Lato", sans-serif;
+  font-weight: bold;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 15px;
+ }
+
+.SpaceX {
+  display: inline-block;
+  color: black;
+  background-color: lightgrey;
+  transition: 0.75s;
+  font: 25px "Lato", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.SpaceX:hover {
+  display: inline-block;
+  background: linear-gradient(90deg, #d6f7ff, #c4f4ff, #b5f1ff);
+  color: black;
+  font: 25px "Lato", sans-serif;
+  font-weight: bold;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 15px;
+}
+
+p.copyright {
+  font-family: Times New Roman;
+  color: black;
+  background-color: ivory;
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+}
+h1
+{
+  background-position: bottom;
+  color: Azure;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Advent Pro";
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow:
+  3px 3px 5px #000,
+  -1px -1px 5px #000,
+  1px -1px 5px #000,
+  -1px 1px 5px #000,
+  1px 1px 5px #000;
+}
+
+h2 {
+  color: #ffc34d;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 26px;
+  font-variant: small-caps;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow:
+    1px 1px 5px #000;
+}
+
+h4 {
+  color: Coral;
+  font-family: "Nunito";
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p
+{
+  color: Azure;
+  text-decoration: none;
+  font-family: "Gill Sans";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+dt
+{
+font-size: 20px;
+}
+
+dd
+{
+    color: black;
+    font-family: "Comic Sans";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-13 {
+  position: relative;
+  opacity: 0.97;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("Hanauma.png");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("droneagriculture.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-3 {
+  background-image: url("M2P.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-4 {
+  background-image: url("conservation.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-5 {
+  background-image: url("transportation.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-6 {
+  background-image: url("AJ.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-7 {
+  background-image: url("HanaumaBay.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-8 {
+  background-image: url("babydrone.gif");
+  min-height: 1000px;
+}
+
+.bgimg-9 {
+  background-image: url("M600.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-10 {
+  background-image: url("Matrice.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-11 {
+  background-image: url("Matrice.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-12 {
+  background-image: url("Matrice.jpg");
+  min-height: 1000px;
+}
+
+.bgimg-13 {
+  background-image: url("babydrone.gif");
+  min-height: 1000px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  /* margin-top: 30px; */
+}
+
+.caption span.border {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+  padding: 18px;
+  font-size: 45px;
+  /* font-weight: bold; */
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  opacity: .8;
+  border-radius: 1px;
+}
+
+h5 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 35px "Lato", sans-serif;
+  color: #ffaa00;
+  margin-bottom: 25px;
+}
+
+/* Turn off parallax scrolling for tablets and phones*/
+@media only screen and (max-device-width: 2160px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+/* .slides_container  {
+  text-align:center;
+  margin: auto;
+} */
+/* #stage {
+  position: static;
+  width: 100%;
+  height: 500px;
+  }
+  #stage a {
+    position: relative;
+    margin:0 auto;
+  }
+  #stage a img {
+    padding: 2px;
+    border: 1px solid grey;;
+  }
+
+  #stage a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    z-index: 20;
+  }
+  #stage a:nth-of-type(2) {
+    animation-name: fader;
+    animation-duration: 1s;
+    z-index: 10;
+    display: none;
+  }
+  #stage a:nth-of-type(n+3) {
+    display: none;
+    animation: fader;
+    animation-duration: 1s;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  } */
