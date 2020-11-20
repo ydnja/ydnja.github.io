@@ -272,12 +272,12 @@ body, html {
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url("Hanauma.jpg");
+  background-image: url("Hanauma.JPG");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("Canyon.jpg");
+  background-image: url("Canyon.JPG");
   min-height: 1000px;
 }
 
