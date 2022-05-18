@@ -10,7 +10,6 @@ div.feature {
   font-family: Helvetica;
  }
 
-
 nav
 {
   position: flex;
@@ -271,7 +270,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-99, .bgimg-22, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-13 {
+.bgimg-99, .bgimg-22, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .Immigration, .bgimg-10, .bgimg-11, .bgimg-13 {
   position: relative;
   opacity: 0.97;
   max-width: 100%;
@@ -281,68 +280,43 @@ body, html {
   background-size: cover;
 }
 .bgimg-99 {
-  background-image: url("Hanauma.jpg");
+  background-image: url("../Hanauma.jpg");
   min-height: 800px;
 }
 
 .bgimg-22 {
-  background-image: url("Canyon.JPG");
+  background-image: url("../Canyon.JPG");
   min-height: 750px;
 }
 
-.bgimg-3 {
-  background-image: url("M2P.jpg");
-  min-height: 1000px;
-}
-
 .bgimg-4 {
-  background-image: url("ContactMe.JPG");
+  background-image: url("../ContactMe.JPG");
   min-height: 850px;
 }
 
 .bgimg-5 {
-  background-image: url("transportation.jpg");
+  background-image: url("../transportation.jpg");
   min-height: 1000px;
 }
 
 .bgimg-6 {
-  background-image: url("AJ.jpg");
+  background-image: url("../AJ.jpg");
   min-height: 850px;
 }
 
 .bgimg-7 {
-  background-image: url("HanaumaBay.jpg");
-  min-height: 1000px;
-}
-
-.bgimg-8 {
-  background-image: url("babydrone.gif");
-  min-height: 1000px;
-}
-
-.bgimg-9 {
-  background-image: url("M600.jpg");
-  min-height: 1000px;
-}
-
-.bgimg-10 {
-  background-image: url("Matrice.jpg");
-  min-height: 1000px;
-}
-
-.bgimg-11 {
-  background-image: url("Matrice.jpg");
-  min-height: 1000px;
-}
-
-.bgimg-12 {
-  background-image: url("Matrice.jpg");
+  background-image: url("../HanaumaBay.jpg");
   min-height: 1000px;
 }
 
 .bgimg-13 {
-  background-image: url("babydrone.gif");
-  min-height: 1000px;
+  background-image: url("../IMG_1990.jpg");
+  min-height: 850px;
+}
+
+.Immigration {
+  background-image: url("../Hanauma.jpg");
+  min-height: 850px;
 }
 
 .caption {
