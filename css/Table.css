@@ -11,16 +11,21 @@ td, th
   border: 1px solid grey;
   text-align: center;
   padding: 9px;
+  font-size: 17px;
 }
 
 tr:nth-child(even)
 {
-  background-color: black;
-  color: white;
+  background-color: lightgrey;
+  color: black;
 }
 
 tr:nth-child(odd)
 {
-  background-color: white;
+  background-color: grey;
   color: black;
+}
+strong
+{
+  font-size: 17px;
 }

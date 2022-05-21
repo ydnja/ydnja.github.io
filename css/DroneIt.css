@@ -87,7 +87,7 @@ nav ul li
   box-shadow: 1px 2px 4px grey;
   background-color: black;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   z-index: 9999;
 }
 
@@ -103,8 +103,9 @@ nav ul li a
 
 nav ul li a:hover
 {
-  background-color: #c7902c;
+  background-color: #ffa514;
   height: 25px;
+  color: black;
 }
 
 nav ul li ul li
@@ -154,6 +155,7 @@ nav ul li:hover ul li
  }
 
 .SpaceX {
+  text-decoration: none;
   display: inline-block;
   color: black;
   background-color: lightgrey;
@@ -161,9 +163,10 @@ nav ul li:hover ul li
   font: 24px "Lato", sans-serif;
   font-weight: bold;
   margin-bottom: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .SpaceX:hover {
+  text-decoration: none;
   display: inline-block;
   background: #ffc34d; /*linear-gradient(90deg, #d6f7ff, #c4f4ff, #b5f1ff);*/
   color: black;
@@ -171,7 +174,7 @@ nav ul li:hover ul li
   font: 25px "Lato", sans-serif;
   font-weight: bold;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 p.copyright {
@@ -205,7 +208,7 @@ h2 {
   font-size: 28px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 1px;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -241,9 +244,9 @@ h4:link {
 h5 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 35px "Lato", sans-serif;
+  font: 37px "Lato", sans-serif;
   color: #ffaa00;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 /*ADD H6 FOR COUNTRY Comparison*/
 
