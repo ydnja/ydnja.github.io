@@ -246,7 +246,8 @@ h5 {
   text-transform: uppercase;
   font: 37px "Lato", sans-serif;
   color: #ffaa00;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin-top: 45px;
 }
 /*ADD H6 FOR COUNTRY Comparison*/
 
@@ -331,6 +332,17 @@ body, html {
   min-height: 850px;
 }
 
+.AvgTempHist{
+  height: 75%;
+  width: 75%;
+  position: relative;
+}
+
+.MaxTempHist{
+  height: 75%;
+  width: 75%;
+  position: relative;
+}
 .caption {
   position: absolute;
   left: 0;
@@ -339,6 +351,25 @@ body, html {
   text-align: center;
   color: #000;
   /* margin-top: 30px; */
+}
+
+.crop-container {
+  width: 1500px;
+  height: 300px;
+  overflow: hidden;
+
+}
+.crop-container img {
+    margin-top: -205px;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .caption span.border {

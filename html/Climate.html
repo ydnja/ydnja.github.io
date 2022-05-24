@@ -17,16 +17,16 @@
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="./AboutMe.html">About Me</a></li>
-            <li><a>Research Projects</a>
+            <li style="background-color: #8c5900;"><a>Research</a>
                 <ul>
                     <li><a href="./Economics.html">Economics of Immigration in the EU</a></li>  <!--change Economic Analysis Papers-->
                     <li><a href="./Nordic.html">Nordic Model Analysis</a></li>
-                    <li><a href="./MGHPod.html">MGH Podcast Marketing</a></li>
+                    <li><a href="./Aging.html">Aging Societies</a></li>
                     <li><a href="./Climate.html">Boston Climate Mini Project</a></li>
                   </ul>
                 </li>
-            <li><a href="./Pictures.html">Photography</a></li>
-            <li><a href="./ContactUs.html">Contact Me</a></li>
+                <li><a href="./ContactUs.html">Contact Me</a></li>
+                <li><a href="./Pictures.html">My Hobbies</a></li>
         </ul>
   </nav>
   <!-- End of Navigation Bar-->
@@ -36,7 +36,7 @@
         </div>
     </div>
 
-    <div style="color: #777; background-color: #000000; text-align:center;padding:50px 80px 0px;text-align: justify;">
+    <div style="color: #777; background-color: #000000; text-align:center;padding:20px 80px 0px;text-align: justify;">
         <h5 style="text-align: center">How has Boston's Temperature Changed in the Past Few Decades?</h5>
             <p><a href="https://www.weather.gov/wrh/Climate?wfo=box" style="color:#ffffff">Using NOAA daily temperature data</a>,
               I display temperature data in the form of calendar heat maps, using ggplot in R,
@@ -47,18 +47,54 @@
           <!--  <p> <a href="./html/Projects.html" class="btn SpaceX">Projects</a></p> -->
     </div>
 
-<!--BEGIN OF PLOT-->
-    <div style="color: #777; background-color: #000000; text-align:center;padding:50px 80px 10px;text-align: justify;">
+<!--BEGIN AVG TEMPERATURE HEATMAP-->
+    <div style="color: #777; background-color: #000000; text-align:center;padding:20px 80px 10px;text-align: justify;">
       <!--INSERT PLOTS HERE, AS WELL AS REGRESSION ESTIMATES-->
+    <center>  <h5>Boston's Average Daily Temperature Since 1961,
+        <br>mapped onto a calendar heatmap</h5>
+      </center>
+      <div class="crop-container">
+              <img src="../AvgTmpBos.gif" class="center">
+              <p>It doesn't tell us anything.</p>
+      </div>
     </div>
+    <!--END HEATMAP 1-->
 
+    <!--BEGINNING OF PLOT 1-->
+    <div style="color: #777; background-color: #000000; text-align:center;padding:20px 80px 0px;text-align: justify;">
+        <h5 style="text-align: center">Has Boston's average daily temperature gotten higher over past few decades?</h5>
+        <center><div class = "AvgTempHist">
+                <img src="../AvgTempHist.png" class="center">
+        </div></center>
+        <p>Visually? Yes it has. Trend line? That also.</p>
+        </div>
+    <!--END PLOT 1-->
+
+    <!--BEGIN MAX Temperature HEATMAP -->
+    <div style="color:#777; background-color:#000000; text-align:center;padding:20px 80px 0px;text-align: justify;">
+      <h5 style="text-align: center">What about Boston's Average Maximum Temperature?</h5>
+        <div class = "crop-container">
+                <img src = "../MaxCalHeat.gif" class="center">
+        </div>
+<!--END HEATMAP 2-->
+
+<!--BEGIN OF MAX TEMPERATURE CHART-->
+        <div style="color: #777; background-color: #000000; text-align:center;padding:20px 80px 0px;text-align: justify;">
+            <h5 style="text-align: center">The heat map is cool, but doesn't tell us much, lets check the yearly average graph.</h5>
+            <center><div class = "MaxTempHist">
+                    <img src="../MaxTempHist.png" class="center">
+            </div></center>
+            <p>Yes, the maximum daily temperature aggregated into a yearly average has gone up as well.</p>
+<!--END OF MAX TEMPERATURE CHART-->
+
+<!--BEGIN OF FOOTER-->
     <div style="position:relative;">
-        <div style="color:#ddd;background-color:black;text-align:center;padding:15px 80px 10px; text-align: justify;">
+        <div style="color:#ddd;background-color:black;text-align:center;padding:5px 80px 5px; text-align: justify;">
           <p></p>
           <h4>By WenDi "Andy" Jiang &copy; 2022.</h4>
       <h4>Contact me at: <a href = "mailto: yd5naj@gmail.com" style = "color:#ffffff">yd5naj@gmail.com</a> </h4>
         </div>
       </div>
-    </div>
+
   </body>
   </html>
