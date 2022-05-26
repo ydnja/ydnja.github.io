@@ -8,24 +8,29 @@ width: 90%;
 
 td, th
 {
-  border: 1px solid grey;
+  outline: 1px dashed black;
   text-align: center;
   padding: 9px;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+th {
+  outline: 1px dashed black;
 }
 
 tr:nth-child(even)
 {
-  background-color: lightgrey;
+  background-color: #dbdbdb;
   color: black;
 }
 
 tr:nth-child(odd)
 {
-  background-color: grey;
+  background-color: #dbdbdb;
   color: black;
 }
 strong
 {
-  font-size: 17px;
+  font-size: 18px;
 }

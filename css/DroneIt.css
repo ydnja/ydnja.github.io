@@ -250,6 +250,13 @@ h5 {
   margin-top: 45px;
 }
 /*ADD H6 FOR COUNTRY Comparison*/
+h6 {
+  letter-spacing: 4px;
+  font: 28px "Lato", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 45px;
+}
 
 p
 {
@@ -260,6 +267,15 @@ p
   text-align: center;
   margin-top: 0;
   margin-bottom: 15px;
+}
+
+p.smol {
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: black;
+  font-family: "Arial";
+  margin-bottom: 0px;
+  margin-top: -5px;
 }
 
 dt
@@ -281,6 +297,18 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .bgimg-99, .bgimg-22, .bgimg-4, .bgimg-6, .bgimg-7, .bgimg-13, .Immigration, .headerAbout, .bgimg-11, .Average-Temp {
